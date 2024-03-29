@@ -17,6 +17,12 @@ const HeaderContainer = styled.header`
         color: #123d36;
     }
   }
+
+  @media (max-width: 460px) {
+    a {
+      font-size: 12px; /* Reduzindo o tamanho da fonte para telas menores que 404px */
+    }
+  }
 `;
 
 const Header = () => {
