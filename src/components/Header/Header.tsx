@@ -12,11 +12,14 @@ const HeaderContainer = styled.header`
     color: #1f6b5e;
     text-decoration: none;
     cursor: pointer;
+
+    &:hover {
+        color: #123d36;
+    }
   }
 `;
 
 const Header = () => {
-  // Função para rolar suavemente até o elemento desejado
   const scrollToExercise = (exerciseId: string) => {
     const exerciseElement = document.getElementById(exerciseId);
     if (exerciseElement) {
