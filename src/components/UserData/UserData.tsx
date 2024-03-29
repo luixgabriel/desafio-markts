@@ -35,9 +35,9 @@ const UserData = () => {
 
   useEffect(() => {
     const fetchUserData = async () => {
-      const response = await new Promise<UserDataResponse>((resolve) =>
+      const response = await new Promise<UserDataResponse>((userData) =>
         setTimeout(() => {
-          resolve({
+          userData({
             name: 'Danilo Nunes',
             email: 'danilo.nunes@gmail.com',
             age: 25,
