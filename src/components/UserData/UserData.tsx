@@ -43,7 +43,7 @@ const UserData = () => {
             age: 25,
             city: 'Nova Iguaçu'
           });
-        }, 3000)
+        }, 6000)
       );
       setUserData(response);
     };
