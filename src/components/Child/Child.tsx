@@ -27,7 +27,7 @@ const Child = ({incrementNumber, parentNumber}: IChildProps) => {
     return (
         <ShieldContainer>
           <p>{parentNumber}</p>
-          <Button onClick={incrementNumber}>Incrementar Número</Button>
+          <Button onClick={incrementNumber}>Incrementar Número no Child</Button>
         </ShieldContainer>
       );
 }
